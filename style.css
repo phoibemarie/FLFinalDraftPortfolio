@@ -1,0 +1,189 @@
+
+.header {
+    background-color: black;
+    height: 2em;
+    padding: 3em;
+}
+
+.nav  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: chango;
+
+}
+
+a {
+    color: white;
+    text-decoration:none
+}
+
+
+#try {
+    background-image: url("https://cdn.dribbble.com/users/1040798/screenshots/15685874/media/aa9588469e19517c2b94b1addd15d11d.gif");
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+    padding: 8em;
+    border: black;
+    
+}
+
+.descriptor {
+  text-align: center;
+  font-size: 30px;
+  font-family: chango;
+}
+
+ 
+.headergreeting {
+    text-align: center;
+    font-size: 75px;
+    font-family: chango; 
+    color: #b29aca; 
+    padding: 2em;
+}
+   
+.introcontext {
+    text-align: center;
+    color: orangered;
+    font-family: chango;
+    font-size: x-large;
+}
+
+.biocontainer {
+    background-color: black;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    color: white;
+}
+
+.bioimg {
+border: solid #d5cefa;
+border-width: 1em;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 4em;
+display: block;
+height: 400px
+}
+
+.biotextcontainer p {
+    font-size: xx-large;
+}
+
+.workbox {
+    background-color: black;
+    color: white;
+   -webkit-transition: background-color 2s ease-out;
+   -moz-transition: background-color 2s ease-out;
+   -o-transition: background-color 2s ease-out;
+   transition: background-color 2s ease-out;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    border: solid #b29aca 10px;
+ }
+    
+ .seemyworktext:hover {
+    background-color: rgb(44, 116, 44);
+    cursor: pointer;
+    color: #d5cefa; 
+  }
+  
+  .seemywork {
+    background-image: url("https://cdn.dribbble.com/users/1040798/screenshots/15632402/media/ba69d42d456d5e73e3a8c6448ca60c4b.png?resize=400x300&vertical=center");
+     border: solid black;
+     padding: 100px;
+     font-size: 30px;
+     width: 400px;
+     background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+  }
+  
+.workboxheader {
+    text-align: center;
+    font-size: xxx-large;
+    font-family: chango;
+}
+.workboxtext p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.seemyworktext {
+         background-color: aliceblue;
+         padding: 1em;
+         text-align: center;
+         margin-top: 70px;
+}
+
+.seemywork h2 {
+    color: black;
+    font-family: chango;
+}
+
+.workimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 200px;
+    margin-bottom: 3em ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b6b2ae;
+    padding:2em;
+    font-family: chango;
+    border: solid black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #6e659a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.music {
+    background-color:rgb(243, 233, 234);
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
