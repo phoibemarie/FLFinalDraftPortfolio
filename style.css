@@ -69,7 +69,8 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 4em;
 display: block;
-height: 400px
+height: 500px;
+width: 500px;
 }
 
 .biotextcontainer p {
