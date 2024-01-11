@@ -1,0 +1,45 @@
+header {
+    background-color: black;
+    height: 2em;
+    padding: 3em;
+}
+
+.nav  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: chango;
+
+}
+
+a {
+    color: white;
+    text-decoration:none
+}
+
+
+#try {
+    background-image: url("https://cdn.dribbble.com/users/1040798/screenshots/15685874/media/aa9588469e19517c2b94b1addd15d11d.gif");
+    background-size: cover;
+    background-position: center;
+    background-origin: padding-box;
+    padding: 2em;
+    border: black;
+    
+}
+
+.descriptor {
+  text-align: center;
+  font-size: 30px;
+  font-family: chango;
+}
+
+ 
+.headergreeting {
+    text-align: center;
+    font-size: 75px;
+    font-family: chango; 
+    color: #b29aca; 
+    padding: 2em;
+}
